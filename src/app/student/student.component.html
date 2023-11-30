@@ -1,0 +1,9 @@
+<h2> Add Student</h2>
+<label>Student Name: 
+</label>
+<input type="text" placeholder="Enter the Student Name"#stuname><br>
+<label>Event Name:</label>
+<input type="text" placeholder="Enter the event details" #activity> <br>
+<br>
+<br>
+<button (click)="addStudent(stuname.value,activity.value)">Add Student</button>

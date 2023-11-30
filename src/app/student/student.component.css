@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Style the form container */
+form {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Style the h2 heading */
+  h2 {
+    font-size: 24px;
+    color: #333; /* Change the color to your preference */
+  }
+  
+  /* Style the labels and input fields */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Change the border color to your preference */
+    border-radius: 5px;
+  }
+  
+  /* Style the button */
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007bff; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change the hover background color to your preference */
+  }
+  

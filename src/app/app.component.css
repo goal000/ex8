@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Reset default margin and padding for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the body and background */
+  body {
+    font-family: Arial, sans-serif; /* Change the font to your preference */
+    background-color: #f7f7f7; /* Change the background color to your preference */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header (H1) */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333; /* Change the text color to your preference */
+    margin: 20px 0;
+  }
+  
+  /* Style the navigation (nav) */
+  nav {
+    background-color: #333; /* Change the background color to your preference */
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* Change the text color to your preference */
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #007bff; /* Change the hover background color to your preference */
+  }
+  
+  /* Style the router outlet container */
+  router-outlet {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff; /* Change the background color to your preference */
+    border: 1px solid #ccc; /* Add a border around the router outlet container */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
